@@ -2,7 +2,7 @@
 
 # Awesome-Automated-Cyber-Incident-Recovery-Runbooks
 
-# Top Automated Cyber Incident Recovery Runbooks Ecosystem
+## Top Automated Cyber Incident Recovery Runbooks Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Cyber Recovery Automation, Isolated Recovery Environments & Ransomware-Resilient Orchestration*  
