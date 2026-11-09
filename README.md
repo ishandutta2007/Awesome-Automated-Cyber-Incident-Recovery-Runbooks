@@ -65,69 +65,69 @@ The sector displays a bifurcated market structure:
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated open-source recovery orchestrators, bare-metal disaster recovery engines, ransomware decryption tools, and automated incident response runbooks. Sorted in descending order by GitHub stars.
+Curated open-source recovery orchestrators, bare-metal disaster recovery engines, ransomware decryption tools, and automated incident response runbooks. Sorted in descending order by GitHub_Stars.
 
-1. **[BorgBackup](https://github.com/borgbackup/borg)** [![GitHub stars](https://img.shields.io/github/stars/borgbackup/borg?style=social&color=white)](https://github.com/borgbackup/borg/stargazers)  
+1. **[BorgBackup](https://github.com/borgbackup/borg)** [![GitHub_Stars](https://img.shields.io/github/stars/borgbackup/borg?style=social&color=white)](https://github.com/borgbackup/borg/stargazers)  
    ⚡ Deduplicating, authenticated, and encrypted backup framework ideal for automated recovery pipelines and immutable storage backends.
 
-2. **[Velero](https://github.com/vmware-tanzu/velero)** [![GitHub stars](https://img.shields.io/github/stars/vmware-tanzu/velero?style=social&color=white)](https://github.com/vmware-tanzu/velero/stargazers)  
+2. **[Velero](https://github.com/vmware-tanzu/velero)** [![GitHub_Stars](https://img.shields.io/github/stars/vmware-tanzu/velero?style=social&color=white)](https://github.com/vmware-tanzu/velero/stargazers)  
    ⚡ Cloud-native disaster recovery and migration platform for Kubernetes clusters, automating persistent volume snapshots and cluster state recovery.
 
-3. **[OpenCTI](https://github.com/opencti-platform/opencti)** [![GitHub stars](https://img.shields.io/github/stars/opencti-platform/opencti?style=social&color=white)](https://github.com/opencti-platform/opencti/stargazers)  
+3. **[OpenCTI](https://github.com/opencti-platform/opencti)** [![GitHub_Stars](https://img.shields.io/github/stars/opencti-platform/opencti?style=social&color=white)](https://github.com/opencti-platform/opencti/stargazers)  
    ⚡ Open-source cyber threat intelligence platform used to feed IOCs into automated recovery cleanrooms and validation runbooks.
 
-4. **[Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh)** [![GitHub stars](https://img.shields.io/github/stars/chaos-mesh/chaos-mesh?style=social&color=white)](https://github.com/chaos-mesh/chaos-mesh/stargazers)  
+4. **[Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh)** [![GitHub_Stars](https://img.shields.io/github/stars/chaos-mesh/chaos-mesh?style=social&color=white)](https://github.com/chaos-mesh/chaos-mesh/stargazers)  
    ⚡ Cloud-native chaos engineering platform for simulating catastrophic outages, infrastructure failure injection, and validating automated recovery runbooks.
 
-5. **[CALDERA (MITRE)](https://github.com/mitre/caldera)** [![GitHub stars](https://img.shields.io/github/stars/mitre/caldera?style=social&color=white)](https://github.com/mitre/caldera/stargazers)  
+5. **[CALDERA (MITRE)](https://github.com/mitre/caldera)** [![GitHub_Stars](https://img.shields.io/github/stars/mitre/caldera?style=social&color=white)](https://github.com/mitre/caldera/stargazers)  
    ⚡ Scalable automated adversary emulation platform built on the MITRE ATT&CK framework to continuously test and trigger cyber recovery mechanisms.
 
-6. **[LitmusChaos](https://github.com/litmuschaos/litmus)** [![GitHub stars](https://img.shields.io/github/stars/litmuschaos/litmus?style=social&color=white)](https://github.com/litmuschaos/litmus/stargazers)  
+6. **[LitmusChaos](https://github.com/litmuschaos/litmus)** [![GitHub_Stars](https://img.shields.io/github/stars/litmuschaos/litmus?style=social&color=white)](https://github.com/litmuschaos/litmus/stargazers)  
    ⚡ Cloud-native chaos engineering orchestration framework designed to automate recovery drill scenarios and verify resilience SLAs.
 
-7. **[GRR Rapid Response](https://github.com/google/grr)** [![GitHub stars](https://img.shields.io/github/stars/google/grr?style=social&color=white)](https://github.com/google/grr/stargazers)  
+7. **[GRR Rapid Response](https://github.com/google/grr)** [![GitHub_Stars](https://img.shields.io/github/stars/google/grr?style=social&color=white)](https://github.com/google/grr/stargazers)  
    ⚡ Google's remote live forensics and triage framework for enterprise-scale incident response and post-compromise system remediation.
 
-8. **[TheHive](https://github.com/TheHive-Project/TheHive)** [![GitHub stars](https://img.shields.io/github/stars/TheHive-Project/TheHive?style=social&color=white)](https://github.com/TheHive-Project/TheHive/stargazers)  
+8. **[TheHive](https://github.com/TheHive-Project/TheHive)** [![GitHub_Stars](https://img.shields.io/github/stars/TheHive-Project/TheHive?style=social&color=white)](https://github.com/TheHive-Project/TheHive/stargazers)  
    ⚡ Security Incident Response Platform (SIRP) offering structured case management, task assignment, and integration with execution runbooks.
 
-9. **[FIR (Fast Incident Response)](https://github.com/certsocietegenerale/FIR)** [![GitHub stars](https://img.shields.io/github/stars/certsocietegenerale/FIR?style=social&color=white)](https://github.com/certsocietegenerale/FIR/stargazers)  
+9. **[FIR (Fast Incident Response)](https://github.com/certsocietegenerale/FIR)** [![GitHub_Stars](https://img.shields.io/github/stars/certsocietegenerale/FIR?style=social&color=white)](https://github.com/certsocietegenerale/FIR/stargazers)  
    ⚡ Cybersecurity incident management platform created by CERT Société Générale to track response and recovery workflows efficiently.
 
-10. **[Cortex](https://github.com/TheHive-Project/Cortex)** [![GitHub stars](https://img.shields.io/github/stars/TheHive-Project/Cortex?style=social&color=white)](https://github.com/TheHive-Project/Cortex/stargazers)  
+10. **[Cortex](https://github.com/TheHive-Project/Cortex)** [![GitHub_Stars](https://img.shields.io/github/stars/TheHive-Project/Cortex?style=social&color=white)](https://github.com/TheHive-Project/Cortex/stargazers)  
     ⚡ Powerful observable analysis and active response engine providing automated execution of remediation and quarantine runbooks.
 
-11. **[Demisto Content (Cortex XSOAR)](https://github.com/demisto/content)** [![GitHub stars](https://img.shields.io/github/stars/demisto/content?style=social&color=white)](https://github.com/demisto/content/stargazers)  
+11. **[Demisto Content (Cortex XSOAR)](https://github.com/demisto/content)** [![GitHub_Stars](https://img.shields.io/github/stars/demisto/content?style=social&color=white)](https://github.com/demisto/content/stargazers)  
     ⚡ Broad repository of automation playbooks, integrations, and incident recovery scripts for security orchestration and response.
 
-12. **[Bareos](https://github.com/bareos/bareos)** [![GitHub stars](https://img.shields.io/github/stars/bareos/bareos?style=social&color=white)](https://github.com/bareos/bareos/stargazers)  
+12. **[Bareos](https://github.com/bareos/bareos)** [![GitHub_Stars](https://img.shields.io/github/stars/bareos/bareos?style=social&color=white)](https://github.com/bareos/bareos/stargazers)  
     ⚡ Cross-network open-source backup and disaster recovery solution with scripting hooks for automated failover and verification.
 
-13. **[Relax-and-Recover (ReaR)](https://github.com/rear/rear)** [![GitHub stars](https://img.shields.io/github/stars/rear/rear?style=social&color=white)](https://github.com/rear/rear/stargazers)  
+13. **[Relax-and-Recover (ReaR)](https://github.com/rear/rear)** [![GitHub_Stars](https://img.shields.io/github/stars/rear/rear?style=social&color=white)](https://github.com/rear/rear/stargazers)  
     ⚡ Leading bare-metal disaster recovery and system migration solution for Linux, generating automated bootable rescue images [citation:16].
 
-14. **[c3rb3r-rescue](https://github.com/soimy/c3rb3r-rescue)** [![GitHub stars](https://img.shields.io/github/stars/soimy/c3rb3r-rescue?style=social&color=white)](https://github.com/soimy/c3rb3r-rescue/stargazers)  
+14. **[c3rb3r-rescue](https://github.com/soimy/c3rb3r-rescue)** [![GitHub_Stars](https://img.shields.io/github/stars/soimy/c3rb3r-rescue?style=social&color=white)](https://github.com/soimy/c3rb3r-rescue/stargazers)  
     ⚡ Evidence-preserving ransomware recovery suite for Synology DSM systems, featuring RAM key extraction and Btrfs copy-on-write recovery routes.
 
-15. **[lockbit-rescue](https://github.com/Saddytech/lockbit-rescue)** [![GitHub stars](https://img.shields.io/github/stars/Saddytech/lockbit-rescue?style=social&color=white)](https://github.com/Saddytech/lockbit-rescue/stargazers)  
+15. **[lockbit-rescue](https://github.com/Saddytech/lockbit-rescue)** [![GitHub_Stars](https://img.shields.io/github/stars/Saddytech/lockbit-rescue?style=social&color=white)](https://github.com/Saddytech/lockbit-rescue/stargazers)  
     ⚡ Recovery toolkit exploiting Salsa20 keystream reuse vulnerabilities across file batches to decrypt LockBit 3.0 ransomware targets [citation:19].
 
-16. **[c3rb3r-btrfs-recovery](https://github.com/crt106/c3rb3r-btrfs-recovery)** [![GitHub stars](https://img.shields.io/github/stars/crt106/c3rb3r-btrfs-recovery?style=social&color=white)](https://github.com/crt106/c3rb3r-btrfs-recovery/stargazers)  
+16. **[c3rb3r-btrfs-recovery](https://github.com/crt106/c3rb3r-btrfs-recovery)** [![GitHub_Stars](https://img.shields.io/github/stars/crt106/c3rb3r-btrfs-recovery?style=social&color=white)](https://github.com/crt106/c3rb3r-btrfs-recovery/stargazers)  
     ⚡ Keyless recovery mechanism for C3RB3R-encrypted Synology/Btrfs file systems by remapping modified blocks back to preserved storage extents [citation:29].
 
-17. **[Stronghold](https://github.com/mehdi-arfaoui/Stronghold)** [![GitHub stars](https://img.shields.io/github/stars/mehdi-arfaoui/Stronghold?style=social&color=white)](https://github.com/mehdi-arfaoui/Stronghold/stargazers)  
+17. **[Stronghold](https://github.com/mehdi-arfaoui/Stronghold)** [![GitHub_Stars](https://img.shields.io/github/stars/mehdi-arfaoui/Stronghold?style=social&color=white)](https://github.com/mehdi-arfaoui/Stronghold/stargazers)  
     ⚡ DRP-as-Code platform that generates dependency graphs, identifies single points of failure, builds automated runbooks, and micro-tests recoveries [citation:12].
 
-18. **[0xelitesystem/incident-response-runbooks](https://github.com/0xelitesystem/incident-response-runbooks)** [![GitHub stars](https://img.shields.io/github/stars/0xelitesystem/incident-response-runbooks?style=social&color=white)](https://github.com/0xelitesystem/incident-response-runbooks/stargazers)  
+18. **[0xelitesystem/incident-response-runbooks](https://github.com/0xelitesystem/incident-response-runbooks)** [![GitHub_Stars](https://img.shields.io/github/stars/0xelitesystem/incident-response-runbooks?style=social&color=white)](https://github.com/0xelitesystem/incident-response-runbooks/stargazers)  
     ⚡ Ten comprehensive incident response runbooks spanning ransomware, API key compromise, data exfiltration, and supply chain containment [citation:11].
 
-19. **[multicloud-disaster-recovery](https://github.com/bukx/multicloud-disaster-recovery)** [![GitHub stars](https://img.shields.io/github/stars/bukx/multicloud-disaster-recovery?style=social&color=white)](https://github.com/bukx/multicloud-disaster-recovery/stargazers)  
+19. **[multicloud-disaster-recovery](https://github.com/bukx/multicloud-disaster-recovery)** [![GitHub_Stars](https://img.shields.io/github/stars/bukx/multicloud-disaster-recovery?style=social&color=white)](https://github.com/bukx/multicloud-disaster-recovery/stargazers)  
     ⚡ Multi-cloud disaster recovery architecture across AWS, Azure, and GCP utilizing Terraform, Pulumi, Ansible, and automated failover routing [citation:27].
 
-20. **[cloud-dr-orchestrator](https://github.com/Kobeep/cloud-dr-orchestrator)** [![GitHub stars](https://img.shields.io/github/stars/Kobeep/cloud-dr-orchestrator?style=social&color=white)](https://github.com/Kobeep/cloud-dr-orchestrator/stargazers)  
+20. **[cloud-dr-orchestrator](https://github.com/Kobeep/cloud-dr-orchestrator)** [![GitHub_Stars](https://img.shields.io/github/stars/Kobeep/cloud-dr-orchestrator?style=social&color=white)](https://github.com/Kobeep/cloud-dr-orchestrator/stargazers)  
     ⚡ Multi-cloud disaster recovery orchestrator automating backup schedules, client encryption, and restore workflows on Oracle Cloud Free Tier [citation:17].
 
-21. **[DaliBackup-OSS](https://github.com/daliranas/DaliBackup-OSS)** [![GitHub stars](https://img.shields.io/github/stars/daliranas/DaliBackup-OSS?style=social&color=white)](https://github.com/daliranas/DaliBackup-OSS/stargazers)  
+21. **[DaliBackup-OSS](https://github.com/daliranas/DaliBackup-OSS)** [![GitHub_Stars](https://img.shields.io/github/stars/daliranas/DaliBackup-OSS?style=social&color=white)](https://github.com/daliranas/DaliBackup-OSS/stargazers)  
     ⚡ Sovereign, lightweight backup engine and disaster recovery orchestrator for Hyper-V and Proxmox VE with embedded AES-256-GCM encryption [citation:21].
 
 ---
