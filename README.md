@@ -17,42 +17,30 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The global Cyber Recovery and Disaster Recovery as a Service (DRaaS) market is valued at approximately **$13 billion to $17 billion** and is projected to expand at an annual growth rate (CAGR) of **16% to 23%** into the next decade. The sector exhibits a bifurcated market structure: it is **highly concentrated** at the underlying infrastructure layer dominated by hyperscalers (Microsoft, AWS, and Google), yet **moderately fragmented** at the cyber-recovery orchestration, cleanroom validation, and specialized software layer where independent vendors, enterprise backup leaders, and agile security platforms compete actively.
+
 ## SaaS/Hosted Platforms
 
-- **[Druva Cyber Recovery Runbooks](https://www.druva.com/)**  
-  Automated threat-aware recovery with Scheduled Cyber Recovery Testing and Live Incident Recovery, using Isolated Recovery Environment (IRE) and IOC scanning before production restore [citation:1][citation:13].
-
-- **[HPE Zerto Cyber Recovery Plans](https://www.zerto.com/)**  
-  Platform-native recovery plans for cyber scenarios, guiding teams to clean recovery points that predate corruption, with ordered multi-VPG orchestration [citation:2].
-
-- **[Veeam Disaster Recovery Orchestrator](https://www.veeam.com/)**  
-  One-click orchestration plans with automated testing, isolated test labs, and compliance-ready documentation for VMware and Azure recovery [citation:3][citation:15].
-
-- **[Rubrik Cyber Recovery](https://www.rubrik.com/)**  
-  Recovery plans for Hyper-V and Azure Local with boot-order sequencing, clean-room Live Mount investigation, and anomaly-filtered snapshot selection [citation:4].
-
-- **[Cohesity SiteContinuity](https://www.cohesity.com/)**  
-  Integrated backup and automated disaster recovery with policy-driven failover and failback orchestration across on-premises and cloud [citation:5].
-
-- **[Commvault Cleanroom Recovery](https://documentation.commvault.com/)**  
-  Runbooks for AWS cleanroom sites with threat scanning, Windows Defender integration, custom validation scripts, and priority-based VM boot sequencing [citation:6].
-
-- **[CloudEndure Disaster Recovery (AWS)](https://docs.cloudendure.com/)**  
-  Continuous replication and automated recovery orchestration for physical, virtual, and cloud servers (now part of AWS Elastic Disaster Recovery) [citation:7].
-
-- **[AWS Elastic Disaster Recovery](https://aws.amazon.com/disaster-recovery/)**  
-  Continuous replication with point-in-time recovery, cross-Region failover, and automated drill execution for EC2 and on-premises workloads [citation:8].
-
-- **[Azure Site Recovery](https://azure.microsoft.com/en-us/products/site-recovery)**  
-  Recovery plans with ordered VM groups, Azure Automation runbook integration, and scripted post-failover actions for multi-tier applications [citation:9][citation:18].
-
-- **[IBM Cyber Resiliency (Safeguarded Copy)](https://www.ibm.com/)**  
-  Immutable Safeguarded Copy snapshots with enterprise-level recovery guarantees, air-gapped copies, and surgical recovery for z/OS and distributed environments [citation:10].
+| Company / Product | Company Size (Valuation / Revenue) | Starting Price (Specific Tier) | Free Tier Limits / Free Trial Policy | Key Cyber Recovery Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Azure Site Recovery](https://azure.microsoft.com/en-us/products/site-recovery)** | **$3.1T+ Market Cap** / $245B+ Annual Revenue (Microsoft) | **$25.00/instance/month** (replicated to Azure) or **$16.00/instance/month** (replicated to customer-owned sites) | **31-Day Free Trial per instance** (first 31 days free for every protected instance; compute/storage consumed during failovers billed separately) | Ordered VM groups, native Azure Automation runbook orchestration, scripted post-failover validation for multi-tier apps [citation:9][citation:18]. |
+| **[AWS Elastic Disaster Recovery](https://aws.amazon.com/disaster-recovery/)** | **$2.1T+ Market Cap** / $600B+ Annual Revenue (Amazon / AWS) | **$0.028/server/hour** (~$20.44/server/month base software license) | **No permanent free tier**; introductory AWS free trial promotions provide up to 90 days per server for eligible new accounts (EBS/EC2 drill infrastructure billed separately) | Continuous block-level replication, sub-second RPO point-in-time recovery, automated non-disruptive recovery drills, cross-Region failover [citation:8]. |
+| **[CloudEndure Disaster Recovery (AWS)](https://docs.cloudendure.com/)** | **$2.1T+ Market Cap** / $600B+ Annual Revenue (Amazon / AWS) | **$0.028/server/hour** (~$20.44/server/month base software license) | **No permanent free tier**; trial evaluation accessible via AWS account setup (replicated staging compute/EBS storage billed separately) | Continuous block-level replication and automated recovery orchestration for physical, virtual, and cloud workloads [citation:7]. |
+| **[IBM Cyber Resiliency (Safeguarded Copy)](https://www.ibm.com/)** | **$210B+ Market Cap** / $62B+ Annual Revenue (IBM) | **Included with IBM Storage Virtualize base license**; advanced IBM Storage Defender software suite starts at ~$65.00/TB/year | **No permanent free tier**; offers structured **14-day on-premises proof-of-concept (PoC) / test-drive** program and free cyber resilience assessment | Immutable Safeguarded Copy snapshots, air-gapped copies, cryptographic verification, and surgical isolated recovery for z/OS and distributed storage [citation:10]. |
+| **[HPE Zerto Cyber Recovery Plans](https://www.zerto.com/)** | **$25B+ Market Cap** / $29B+ Annual Revenue (Hewlett Packard Enterprise) | **$33.00/VM/month** (cloud migration tier) to **$83.33/VM/month** ($1,000/VM/year enterprise baseline) | **30-Day Free Trial** up to 10 VMs via Zerto In-Cloud (or 14-day trial for up to 15 VMs on enterprise packages) | Platform-native cyber recovery plans, ordered multi-VPG orchestration, journaling to recover to clean points pre-dating compromise [citation:2]. |
+| **[Veeam Disaster Recovery Orchestrator](https://www.veeam.com/)** | **$15B Valuation** / $1.7B+ ARR (Veeam Software) | **$12.92/workload/month** ($155/workload/year under Veeam Universal License packs) | **Free forever plan: Community Edition up to 10 workloads**; full enterprise orchestration trial available for **30 days** | Automated recovery plan orchestration, isolated test labs (DataLabs), compliance-ready dynamic DR documentation, malware scanning [citation:3][citation:15]. |
+| **[Rubrik Cyber Recovery](https://www.rubrik.com/)** | **$13.9B Market Cap** / $1.09B Subscription ARR (Rubrik, Inc.) | **$130.00/TB/month** (Backup Enterprise Terabyte list baseline; multi-year enterprise contracts start at ~$50,000/year) | **No permanent free tier**; structured **30-day Proof-of-Concept (PoC) / trial** available through enterprise sales team | Cleanroom Live Mount threat hunting, anomaly-filtered snapshot selection, boot-order sequencing, automated quarantine [citation:4]. |
+| **[Cohesity SiteContinuity](https://www.cohesity.com/)** | **$7B–$8B Valuation** / $1.7B+ Combined Revenue (Cohesity) | **$83.33/TB/month** ($1,000/TB/year baseline enterprise commitment; AWS Marketplace starts at $2,425/month for 10 BETB) | **30-Day Free Trial** for Cohesity DataProtect / BaaS cloud orchestration (underlying cloud infrastructure costs apply) | Unified backup and automated DR, policy-driven failover/failback orchestration, isolated recovery testing across hybrid clouds [citation:5]. |
+| **[Commvault Cleanroom Recovery](https://documentation.commvault.com/)** | **$5.5B–$6.6B Market Cap** / $996M Annual Revenue (Commvault) | **$8.17/VM/month** ($98/VM/year hybrid VM pack) or **$58.50/TB/month** for SaaS cloud storage; Cleanroom capacity starts in 10 TB recovery blocks | **30-Day Free Trial** (no credit card required) for Commvault Cloud SaaS and Cleanroom Recovery testing | AWS cleanroom automated provisioning, integrated Microsoft Defender scanning, custom validation scripts, prioritized VM boot sequencing [citation:6]. |
+| **[Druva Cyber Recovery Runbooks](https://www.druva.com/)** | **$2B Peak Valuation** / $200M+ SaaS ARR (Druva) | **$8.00/user/month** (SaaS/endpoint tier) or **$200.00/credit/month** (1 credit = 1 TB deduplicated storage/month) | **30-Day Free Trial** (extendable up to 60 days via tenant admin) with full access to SaaS resiliency workflows | Automated Scheduled Cyber Recovery Testing, Live Incident Recovery orchestration, Isolated Recovery Environment (IRE) and IOC scanning [citation:1][citation:13]. |
 
 ## Open-Source GitHub Projects
 
