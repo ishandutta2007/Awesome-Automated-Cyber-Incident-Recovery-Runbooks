@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0d1527"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+    <linearGradient id="cyberBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+    <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f857a6"/>
+      <stop offset="100%" stop-color="#ff5858"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="slightGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .grid-line { stroke: #1e293b; stroke-width: 1; stroke-opacity: 0.4; }
+    .pulse-circle {
+      animation: pulse 3s infinite ease-in-out;
+    }
+    .orbit-node {
+      animation: float 4s infinite ease-in-out alternate;
+    }
+    .flow-line {
+      stroke-dasharray: 8, 8;
+      animation: dash 20s linear infinite;
+    }
+    @keyframes dash {
+      to { stroke-dashoffset: -1000; }
+    }
+    @keyframes pulse {
+      0% { r: 4px; opacity: 0.3; }
+      50% { r: 8px; opacity: 0.9; }
+      100% { r: 4px; opacity: 0.3; }
+    }
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-8px); }
+    }
+    .banner-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 44px;
+      fill: #ffffff;
+      letter-spacing: -0.5px;
+    }
+    .banner-sub {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      fill: #38bdf8;
+      letter-spacing: 0.2px;
+    }
+    .banner-desc {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      fill: #94a3b8;
+    }
+    .pill-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      fill: #e2e8f0;
+    }
+  </style>
+
+  <!-- Deep Background -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGrad)"/>
+
+  <!-- Subtle High-Tech Grid -->
+  <g class="grid-layer">
+    <line x1="0" y1="70" x2="1200" y2="70" class="grid-line" />
+    <line x1="0" y1="140" x2="1200" y2="140" class="grid-line" />
+    <line x1="0" y1="210" x2="1200" y2="210" class="grid-line" />
+    <line x1="0" y1="280" x2="1200" y2="280" class="grid-line" />
+    <line x1="0" y1="350" x2="1200" y2="350" class="grid-line" />
+
+    <line x1="150" y1="0" x2="150" y2="420" class="grid-line" />
+    <line x1="300" y1="0" x2="300" y2="420" class="grid-line" />
+    <line x1="450" y1="0" x2="450" y2="420" class="grid-line" />
+    <line x1="600" y1="0" x2="600" y2="420" class="grid-line" />
+    <line x1="750" y1="0" x2="750" y2="420" class="grid-line" />
+    <line x1="900" y1="0" x2="900" y2="420" class="grid-line" />
+    <line x1="1050" y1="0" x2="1050" y2="420" class="grid-line" />
+  </g>
+
+  <!-- Dynamic Cyber Ambient Glow Orbs in Background -->
+  <circle cx="1020" cy="120" r="140" fill="#00f2fe" opacity="0.08" filter="url(#glow)"/>
+  <circle cx="180" cy="320" r="120" fill="#f857a6" opacity="0.07" filter="url(#glow)"/>
+  <circle cx="650" cy="220" r="90" fill="#10b981" opacity="0.05" filter="url(#glow)"/>
+
+  <!-- Dynamic Incident-to-Recovery Flow Diagram (Right Side) -->
+  <g transform="translate(730, 60)" class="orbit-node">
+    <!-- Connecting animated circuit lines -->
+    <path d="M 60 70 L 190 70 L 280 150 L 360 150" fill="none" stroke="#0284c7" stroke-width="2.5" class="flow-line" opacity="0.7"/>
+    <path d="M 60 210 L 190 210 L 280 150" fill="none" stroke="#10b981" stroke-width="2.5" class="flow-line" opacity="0.7"/>
+
+    <!-- Incident Card (Threat Event) -->
+    <rect x="0" y="35" width="130" height="70" rx="10" fill="url(#cardGrad)" stroke="#f43f5e" stroke-width="1.5" filter="url(#slightGlow)"/>
+    <text x="65" y="65" text-anchor="middle" fill="#fda4af" font-family="sans-serif" font-weight="700" font-size="13">🚨 INCIDENT</text>
+    <text x="65" y="85" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="11">Ransomware / Breach</text>
+
+    <!-- Cleanroom / Validation Card -->
+    <rect x="0" y="175" width="130" height="70" rx="10" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5" filter="url(#slightGlow)"/>
+    <text x="65" y="205" text-anchor="middle" fill="#38bdf8" font-family="sans-serif" font-weight="700" font-size="13">🧪 CLEANROOM</text>
+    <text x="65" y="225" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="11">Isolated Threat Scan</text>
+
+    <!-- Orchestrated Recovery Core -->
+    <rect x="180" y="110" width="130" height="80" rx="12" fill="url(#cardGrad)" stroke="#06b6d4" stroke-width="2" filter="url(#slightGlow)"/>
+    <text x="245" y="142" text-anchor="middle" fill="#22d3ee" font-family="sans-serif" font-weight="800" font-size="13">⚡ RUNBOOK</text>
+    <text x="245" y="162" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="11">Boot Sequencing</text>
+    <text x="245" y="176" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="10">Auto-Remediation</text>
+
+    <!-- Restored System Card -->
+    <rect x="330" y="115" width="95" height="70" rx="10" fill="url(#cardGrad)" stroke="#10b981" stroke-width="2" filter="url(#slightGlow)"/>
+    <text x="377" y="145" text-anchor="middle" fill="#4ade80" font-family="sans-serif" font-weight="800" font-size="13">🛡️ ONLINE</text>
+    <text x="377" y="165" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="11">RPO &lt; 1s</text>
+
+    <!-- Pulsing Node Dots -->
+    <circle cx="65" cy="70" r="5" fill="#f43f5e" class="pulse-circle"/>
+    <circle cx="65" cy="210" r="5" fill="#38bdf8" class="pulse-circle"/>
+    <circle cx="245" cy="150" r="5" fill="#00f2fe" class="pulse-circle"/>
+    <circle cx="377" cy="150" r="5" fill="#10b981" class="pulse-circle"/>
+  </g>
+
+  <!-- Foreground Typography & Branding -->
+  <g transform="translate(70, 75)">
+    <!-- Category Pill Badge -->
+    <rect x="0" y="0" width="220" height="28" rx="14" fill="#0f172a" stroke="#0284c7" stroke-width="1.2"/>
+    <circle cx="14" cy="14" r="5" fill="#00f2fe" class="pulse-circle"/>
+    <text x="28" y="19" class="pill-text" fill="#38bdf8">CYBER RESILIENCE DIRECTORY</text>
+
+    <!-- Main Title -->
+    <text x="0" y="75" class="banner-title">
+      Automated Cyber Incident
+    </text>
+    <text x="0" y="125" class="banner-title" fill="url(#cyberBlue)">
+      Recovery Runbooks ⚡
+    </text>
+
+    <!-- Subtitle & Tagline -->
+    <text x="0" y="165" class="banner-sub">
+      Curated SaaS Platforms, Cleanroom Recovery &amp; Open-Source DR-as-Code
+    </text>
+    <text x="0" y="195" class="banner-desc">
+      Orchestrate ransomware resilience, immutable clean-room verification, and automated failover pipelines.
+    </text>
+
+    <!-- Interactive / Feature Pills -->
+    <g transform="translate(0, 230)">
+      <g transform="translate(0, 0)">
+        <rect width="135" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+        <text x="67" y="20" text-anchor="middle" class="pill-text">🔒 Cleanroom IRE</text>
+      </g>
+      <g transform="translate(145, 0)">
+        <rect width="175" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+        <text x="87" y="20" text-anchor="middle" class="pill-text">🛡️ Ransomware Rescue</text>
+      </g>
+      <g transform="translate(330, 0)">
+        <rect width="155" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+        <text x="77" y="20" text-anchor="middle" class="pill-text">⚡ DR-as-Code</text>
+      </g>
+      <g transform="translate(495, 0)">
+        <rect width="145" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+        <text x="72" y="20" text-anchor="middle" class="pill-text">🎯 Automated Drills</text>
+      </g>
+    </g>
+  </g>
+</svg>
